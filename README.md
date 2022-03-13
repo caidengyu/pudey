@@ -34,9 +34,9 @@ fork 之后 ，在railway的dashboard，选择 new project
 ```bash
 * 客户端下载：https://github.com/2dust/v2rayN/releases
 * 代理协议：vless 或 vmess
-* 地址：xxx.herokuapp.com
+* 地址:tuonure.tk.com
 * 端口：443
-* 默认UUID：24b4b1e1-7a89-45f6-858c-242cf53b5bdb
+* 默认UUID：17b3fd08-5c07-4efd-a0b7-d941f55dadd0
 * vmess额外id：0
 * 加密：none
 * 传输协议：ws
@@ -57,7 +57,7 @@ fork 之后 ，在railway的dashboard，选择 new project
     "run_type": "client",
     "local_addr": "127.0.0.1",
     "local_port": 1080,
-    "remote_addr": "xxx.herokuapp.com",
+    "remote_addr": "tuonure.tk.com",
     "remote_port": 443,
     "password": [
         "24b4b1e1-7a89-45f6-858c-242cf53b5bdb"
@@ -76,7 +76,7 @@ fork 之后 ，在railway的dashboard，选择 new project
 
 ```bash
 * 客户端下载：https://github.com/shadowsocks/shadowsocks-windows/releases/
-* 服务器地址: xxx.herokuapp.com
+* 服务器地址: tuonure.tk.com
 * 端口: 443
 * 密码：24b4b1e1-7a89-45f6-858c-242cf53b5bdb
 * 加密：chacha20-ietf-poly1305
@@ -89,8 +89,8 @@ fork 之后 ，在railway的dashboard，选择 new project
 <summary>可以使用Cloudflare的Workers来中转流量，（支持VLESS\VMESS\Trojan-Go的WS模式）配置为：</summary>
 
 ```js
-const SingleDay = 'xxx.herokuapp.com'
-const DoubleDay = 'xxx.herokuapp.com'
+const SingleDay = 'tuonure.tk.com'
+const DoubleDay = 'tuonure.tk.com'
 addEventListener(
     "fetch",event => {
     
